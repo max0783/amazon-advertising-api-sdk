@@ -1,0 +1,64 @@
+name: Polly Recordings
+
+on:
+  push:
+    branches-ignore:
+      - polly-recordings
+      - master
+    paths:
+      - '**.ts'
+      - '**.har'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Cache node modules
+      uses: actions/cache@v3
+      env:
+        cache-name: cache-node-modules
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
+
+    - name: install
+      run: npm ci
+
+    - name: test
+      run: |
+        export TEST_ACCESS_TOKEN=$(npm -s run dev:refresh-token -)
+        npm t
+      env:
+        TEST_ACCESS_TOKEN: ${{ secrets.TEST_ACCESS_TOKEN }}
+        TEST_CLIENT_ID: ${{ secrets.TEST_CLIENT_ID }}
+        TEST_CLIENT_SECRET: ${{ secrets.TEST_CLIENT_SECRET }}
+        TEST_REFRESH_TOKEN: ${{ secrets.TEST_REFRESH_TOKEN }}
+        TEST_SCOPE: ${{ secrets.TEST_SCOPE }}
+        POLLY_RECORD_IF_MISSING: 'true'
+        CI: "true"
+
+    - name: Commit files
+      if: ${{ always() }}
+      run: |
+        git config --local user.email "scale-bot@scaleleap.com"
+        git config --local user.name "Scale Bot"
+        git add -A test/__recordings__
+        git diff-index --quiet HEAD || git commit -m "test: adds Polly recordings [skip ci]"
+
+    - name: Push changes
+      if: ${{ always() }}
+      uses: ad-m/github-push-action@master
+      with:
+        branch: ${{ github.ref }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
