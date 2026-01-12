@@ -1,17 +1,16 @@
 {
-  "extends": "tsconfigs/nodejs-module",
-  "compilerOptions": {
-    "lib": [
-      "DOM",
-      "ES2019"
-    ],
-    "target": "ES2019",
-    "experimentalDecorators": true,
-  },
-  "include": [
-    "utils/**/*",
-    "src/**/*",
-    "test/**/*",
-    "examples/**/*"
-  ],
+    "extends": "tsconfigs/nodejs-module",
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@scaleleap/amazon-advertising-api-sdk": [
+                "src/index"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "test/**/*",
+        "examples/**/*"
+    ]
 }
