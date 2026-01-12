@@ -105,6 +105,7 @@ temp/
 
 # generated docs
 docs/typedoc
+<<<<<<< HEAD
 /test/operations/reports/sponsored-brands/__recordings__
 /test/operations/ad-groups/__recordings__
 /test/operations/campaigns/__recordings__
@@ -120,3 +121,6 @@ docs/typedoc
 /test/operations/portfolios/__recordings__
 /test/operations/suggested-products/__recordings__
 /test/operations/stores/__recordings__
+=======
+/test/__recordings__
+>>>>>>> 3d542d79af65a58107c928f20b8dce2e66360c57

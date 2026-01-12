@@ -1,0 +1,191 @@
+{
+  "@microsoft/api-extractor": {
+    "current": "7.47.11",
+    "wanted": "7.47.11",
+    "latest": "7.55.2",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\@microsoft\\api-extractor"
+  },
+  "@scaleleap/amazon-marketplaces": {
+    "current": "18.0.1",
+    "wanted": "18.0.2",
+    "latest": "18.0.2",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\@scaleleap\\amazon-marketplaces"
+  },
+  "@scaleleap/jest-polly": {
+    "current": "1.5.27",
+    "wanted": "1.5.27",
+    "latest": "1.6.17",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\@scaleleap\\jest-polly"
+  },
+  "@types/jest": {
+    "current": "27.4.0",
+    "wanted": "27.4.0",
+    "latest": "30.0.0",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\@types\\jest"
+  },
+  "@types/lodash": {
+    "current": "4.17.13",
+    "wanted": "4.17.13",
+    "latest": "4.17.23",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\@types\\lodash"
+  },
+  "@types/node": {
+    "current": "18.19.50",
+    "wanted": "18.19.50",
+    "latest": "25.0.6",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\@types\\node"
+  },
+  "@typescript-eslint/eslint-plugin": {
+    "current": "8.14.0",
+    "wanted": "8.14.0",
+    "latest": "8.52.0",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\@typescript-eslint\\eslint-plugin"
+  },
+  "@typescript-eslint/parser": {
+    "current": "8.14.0",
+    "wanted": "8.14.0",
+    "latest": "8.52.0",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\@typescript-eslint\\parser"
+  },
+  "agentkeepalive": {
+    "current": "4.5.0",
+    "wanted": "4.5.0",
+    "latest": "4.6.0",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\agentkeepalive"
+  },
+  "axios": {
+    "current": "0.28.1",
+    "wanted": "0.28.1",
+    "latest": "1.13.2",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\axios"
+  },
+  "eslint": {
+    "current": "9.14.0",
+    "wanted": "9.14.0",
+    "latest": "9.39.2",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\eslint"
+  },
+  "eslint-config-prettier": {
+    "current": "9.1.0",
+    "wanted": "9.1.0",
+    "latest": "10.1.8",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\eslint-config-prettier"
+  },
+  "eslint-plugin-jest": {
+    "current": "28.8.3",
+    "wanted": "28.8.3",
+    "latest": "29.12.1",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\eslint-plugin-jest"
+  },
+  "eslint-plugin-prettier": {
+    "current": "5.2.1",
+    "wanted": "5.2.1",
+    "latest": "5.5.4",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\eslint-plugin-prettier"
+  },
+  "fp-ts": {
+    "current": "2.16.9",
+    "wanted": "2.16.9",
+    "latest": "2.16.11",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\fp-ts"
+  },
+  "io-ts": {
+    "current": "2.2.21",
+    "wanted": "2.2.21",
+    "latest": "2.2.22",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\io-ts"
+  },
+  "io-ts-promise": {
+    "current": "2.0.2",
+    "wanted": "2.0.2",
+    "latest": "3.0.0",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\io-ts-promise"
+  },
+  "io-ts-reporters": {
+    "current": "1.2.2",
+    "wanted": "1.2.2",
+    "latest": "2.0.1",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\io-ts-reporters"
+  },
+  "jest": {
+    "current": "26.6.3",
+    "wanted": "26.6.3",
+    "latest": "30.2.0",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\jest"
+  },
+  "lazy-get-decorator": {
+    "current": "2.2.1",
+    "wanted": "2.2.1",
+    "latest": "3.0.0",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\lazy-get-decorator"
+  },
+  "prettier": {
+    "current": "3.3.3",
+    "wanted": "3.3.3",
+    "latest": "3.7.4",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\prettier"
+  },
+  "rimraf": {
+    "current": "6.0.1",
+    "wanted": "6.0.1",
+    "latest": "6.1.2",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\rimraf"
+  },
+  "semantic-release": {
+    "current": "19.0.5",
+    "wanted": "19.0.5",
+    "latest": "24.2.9",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\semantic-release"
+  },
+  "ts-jest": {
+    "current": "26.5.6",
+    "wanted": "26.5.6",
+    "latest": "29.4.6",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\ts-jest"
+  },
+  "tsconfigs": {
+    "current": "4.0.2",
+    "wanted": "4.0.2",
+    "latest": "5.0.0",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\tsconfigs"
+  },
+  "typedoc": {
+    "current": "0.26.11",
+    "wanted": "0.26.11",
+    "latest": "0.28.16",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\typedoc"
+  },
+  "typescript": {
+    "current": "5.6.3",
+    "wanted": "5.6.3",
+    "latest": "5.9.3",
+    "dependent": "amazon-advertising-api-sdk",
+    "location": "C:\\Users\\max72\\Documents\\GitHub\\amazon-advertising-api-sdk\\node_modules\\typescript"
+  }
+}

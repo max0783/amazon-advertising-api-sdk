@@ -15,7 +15,7 @@ export interface HttpClientAuth {
 
 export type RequestBody = object | object[]
 
-export type Headers = AxiosResponseHeaders
+export type Headers = Record<string, any>
 
 interface HttpClientRequestParams {
   method: Method
@@ -53,7 +53,7 @@ export class HttpClient {
     private readonly uri: string,
     private readonly auth: HttpClientAuth,
     private readonly sandbox = false,
-  ) {}
+  ) { }
 
   private async request<T>(params: HttpClientRequestParams) {
     return axios.request<T>({
