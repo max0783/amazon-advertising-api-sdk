@@ -9,6 +9,8 @@
     ],
     "exclude": [
         "test/**/*",
-        "examples/**/*"
+        "examples/**/*",
+        "**/*.test.ts",
+        "**/*.spec.ts"
     ]
 }
