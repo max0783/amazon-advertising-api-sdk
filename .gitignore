@@ -105,3 +105,18 @@ temp/
 
 # generated docs
 docs/typedoc
+/test/operations/reports/sponsored-brands/__recordings__
+/test/operations/ad-groups/__recordings__
+/test/operations/campaigns/__recordings__
+/test/operations/keywords/__recordings__
+/test/operations/bidding/__recordings__
+/test/operations/negative-targeting/__recordings__
+/test/operations/product-targeting/__recordings__
+/test/operations/reports/sponsored-display/__recordings__
+/test/operations/reports/sponsored-products/__recordings__
+/test/operations/profiles/__recordings__
+/test/operations/product-ads/__recordings__
+/test/operations/snapshots/__recordings__
+/test/operations/portfolios/__recordings__
+/test/operations/suggested-products/__recordings__
+/test/operations/stores/__recordings__
